@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My Blog Page</title>
+    <style>
+        #header {
+            width: 100%;
+            background-color:mediumpurple ;
+            float: right;
+            height: 100px;
+        }
+        #nav {
+            width: 30%;
+            background-color: orangered;
+            float: left;
+            height: 250px;
+        }
+        #content {
+            width: 70%;
+            background-color: yellow;
+            float: right;
+            height: 250px;
+        }
+
+        #footer {
+            background-color: aqua;
+            width: 100%;
+            height: 30px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header"> <p style=" text-align:center"><h1>[My Blog Page]</h1></p>></div>
+        <div id="nav">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="https://www.w3.org" target="blank">W3C</a></li>
+                <li><a href="https://www.mozilla.org/ko/" target="blank">MOZILLA</a></li>
+                <li><a href="https://htmldog.com/" target="_blank">HTML DOG</a></li>
+            </ul>
+            <img src="cpu.png"width="60"height="60">
+            <p>컴퓨터</p>
+        </div>
+        <div id="content"> <h3>Semantic Tags</h3>
+        <p>시멘틱 요소(Sementic elements)들은 브라우저에게 요소의 의미나 목적을 명확하게 알려주는 요소이다.</p>
+        <h3>div와 span</h3>
+        <p>div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다. span요소는 인라인 요소로서 텍스트를 위한 컨테이너로 사용할 수 있다.</p>
+        </div>
+        <div id="footer"> <p style=" text-align:center">제작자 202110929 컴퓨터과학과 박인우</p></div>
+    </div>
+</body>
+</html>
